@@ -1,0 +1,5 @@
+/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/mynativecalcsJNI.dir
+/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir
+/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/dvbpsi.dir
+/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/mynativecalcs.dir

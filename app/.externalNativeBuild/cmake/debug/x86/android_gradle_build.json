@@ -1,0 +1,537 @@
+
+{
+	"buildFiles" : [ "/home/eldorado/Git/GeneratorLibs/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/root/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"dvbpsi-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "dvbpsi",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86 --target dvbpsi",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86  -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/cpp/calcs.cpp",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/jni/mynativecalcsJNI.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/demux.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptor.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_02.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_03.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_04.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_05.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_06.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_07.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_08.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_09.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_0a.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_0b.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_0c.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_0d.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_0e.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_0f.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_10.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_11.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_12.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_13.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_14.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_1b.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_1c.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_40.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_41.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_42.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_43.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_44.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_45.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_47.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_48.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_49.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_4a.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_4b.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_4c.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_4d.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_4e.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_4f.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_50.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_52.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_53.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_54.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_55.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_56.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_58.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_59.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_5a.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_62.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_66.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_69.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_73.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_76.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_7c.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_81.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_83.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_86.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_8a.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_a0.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/descriptors/dr_a1.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/dvbpsi.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/psi.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/atsc_eit.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/atsc_ett.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/atsc_mgt.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/atsc_stt.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/atsc_vct.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/bat.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/cat.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/eit.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/nit.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/pat.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/pmt.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/rst.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/sdt.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/sis.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -Ddvbpsi_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/libdvbpsi-1.3.0/src/tables/tot.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "/home/eldorado/Git/GeneratorLibs/app/build/intermediates/cmake/debug/obj/x86/libdvbpsi.so",
+			"toolchain" : "11623287784116073175"
+		},
+		"mynativecalcs-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "mynativecalcs",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86 --target mynativecalcs",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86   -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info     -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/cpp/calcs.cpp",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86/libmynativecalcs.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"mynativecalcsJNI-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "mynativecalcsJNI",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86 --target mynativecalcsJNI",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain /root/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/platforms/android-15/arch-x86 -DmynativecalcsJNI_EXPORTS -I../../../../src/main/cpp -I../../../../src/main/libdvbpsi-1.3.0 -I\"../../../../src/main/libdvbpsi-1.3.0/dvbpsi/*.h\" -I../../../../src/main/jni  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/eldorado/Git/GeneratorLibs/app/src/main/jni/mynativecalcsJNI.c",
+					"workingDirectory" : "/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "/home/eldorado/Git/GeneratorLibs/app/build/intermediates/cmake/debug/obj/x86/libmynativecalcsJNI.so",
+			"toolchain" : "11623287784116073175"
+		}
+	},
+	"toolchains" : 
+	{
+		"11623287784116073175" : 
+		{
+			"cCompilerExecutable" : "/root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

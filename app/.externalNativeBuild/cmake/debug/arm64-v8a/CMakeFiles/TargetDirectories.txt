@@ -1,0 +1,5 @@
+/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/mynativecalcsJNI.dir
+/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/dvbpsi.dir
+/home/eldorado/Git/GeneratorLibs/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/mynativecalcs.dir
